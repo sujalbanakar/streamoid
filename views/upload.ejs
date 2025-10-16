@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Products CSV</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; }
+        h2 { color: #333; }
+        form { margin-top: 20px; }
+        input, button { padding: 10px; font-size: 16px; }
+        button { cursor: pointer; background-color: #4CAF50; color: white; border: none; }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h2>Upload Products CSV</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required />
+        <button type="submit">Upload CSV</button>
+    </form>
+</body>
+</html>
