@@ -1,36 +1,41 @@
 # Streamoid - Product Catalog Backend
 
-A **Node.js & Express backend** to manage product catalogs for online sellers. Sellers can upload CSV files, validate products, and query the database. Built with **MongoDB**, **Multer**, **EJS**, and **JWT authentication**.
+A **Node.js & Express** backend to manage product catalogs for online sellers.  
+Sellers can upload CSV files, validate products, and query the database.  
+Built with **MongoDB, Multer, EJS, bcrypt, and JWT authentication**.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Upload product CSV files and validate data.
-- Store valid products in MongoDB.
-- List all products with pagination support.
-- Search/filter products by brand, color, price range.
-- Admin panel with JWT authentication.
-- Owner login and product management.
-
----
-
-## Tech Stack
-
-- Node.js, Express.js
-- MongoDB (Mongoose)
-- EJS templates
-- Multer for CSV upload
-- bcrypt for password hashing
-- JWT for authentication
-- connect-flash for notifications
+- 📤 Upload product CSV files and validate data.  
+- 💾 Store valid products in MongoDB.  
+- 📋 List all products with pagination support.  
+- 🔍 Search/filter products by **brand**, **color**, **price**, and **category**.  
+- 🔐 Admin panel with **JWT authentication**.  
+- 👤 Owner login and product management dashboard.  
+- ⚙️ Flash messages for validation & upload status.  
 
 ---
 
-## Installation
+## 🧰 Tech Stack
 
-1. Clone the repository:
+| Category | Technology |
+|-----------|-------------|
+| Backend Framework | **Node.js**, **Express.js** |
+| Database | **MongoDB** (via **Mongoose**) |
+| Template Engine | **EJS** |
+| File Upload | **Multer** |
+| Authentication | **JWT (JSON Web Token)** |
+| Security | **bcrypt** for password hashing |
+| Notifications | **connect-flash**, **express-session** |
 
-```bash
-git clone https://github.com/sujalbanakar/streamoid.git
-cd streamoid
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/sujalbanakar/streamoid.git
+   cd streamoid
